@@ -36,6 +36,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
+                    //CounterViewModel 타입의 viewModel 함수를 메인 컴포넌트에 전달
                     CounterApp(viewModel)
                 }
             }
